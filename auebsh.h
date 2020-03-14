@@ -1,0 +1,11 @@
+char* ReadLine(void);
+char** SplitLine(char* line);
+int CheckInOut(char** args);
+char** TakeArguments(char** args);
+char** TakeInOut(char** args);
+int* PipeNumber(char** args);
+char** SplitCommand(char** args, int number);
+void auebsh1_exec(char** args);
+void auebsh2_exec(char** args);
+void auebsh3_exec(char** args);
+void auebsh4_exec(char** args);
